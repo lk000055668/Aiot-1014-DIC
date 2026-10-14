@@ -3,6 +3,8 @@
 A university Data Mining project using multiple linear regression and all six
 CRISP-DM phases to predict startup profit from spending and geographic state.
 
+![StartupLab dataset analysis workspace](startuplab-analysis.png)
+
 ## Dataset source
 
 [GaneshSparkz's 50 Startups Gist](https://gist.github.com/GaneshSparkz/b5662effbdae8746f7f7d8ed70c42b2d)
