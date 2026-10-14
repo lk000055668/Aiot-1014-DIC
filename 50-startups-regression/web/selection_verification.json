@@ -1,0 +1,81 @@
+{
+  "startups": {
+    "maxK": 5,
+    "configurations": 25,
+    "best": {
+      "algorithm": "RFE",
+      "k": 3
+    },
+    "skipped": [],
+    "seconds": 3.3114461000077426
+  },
+  "boston": {
+    "maxK": 13,
+    "configurations": 57,
+    "best": {
+      "algorithm": "Exhaustive",
+      "k": 13
+    },
+    "skipped": [
+      {
+        "algorithm": "Exhaustive",
+        "k": 3,
+        "candidates": 286,
+        "reason": "286 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      },
+      {
+        "algorithm": "Exhaustive",
+        "k": 4,
+        "candidates": 715,
+        "reason": "715 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      },
+      {
+        "algorithm": "Exhaustive",
+        "k": 5,
+        "candidates": 1287,
+        "reason": "1,287 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      },
+      {
+        "algorithm": "Exhaustive",
+        "k": 6,
+        "candidates": 1716,
+        "reason": "1,716 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      },
+      {
+        "algorithm": "Exhaustive",
+        "k": 7,
+        "candidates": 1716,
+        "reason": "1,716 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      },
+      {
+        "algorithm": "Exhaustive",
+        "k": 8,
+        "candidates": 1287,
+        "reason": "1,287 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      },
+      {
+        "algorithm": "Exhaustive",
+        "k": 9,
+        "candidates": 715,
+        "reason": "715 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      },
+      {
+        "algorithm": "Exhaustive",
+        "k": 10,
+        "candidates": 286,
+        "reason": "286 subsets exceed the 256 subsets-per-k interactive limit. Narrow the inputs for exact search."
+      }
+    ],
+    "seconds": 9.87560569983907
+  },
+  "custom": {
+    "maxK": 4,
+    "configurations": 20,
+    "best": {
+      "algorithm": "ElasticNet",
+      "k": 3
+    },
+    "skipped": [],
+    "seconds": 1.40376490005292
+  }
+}

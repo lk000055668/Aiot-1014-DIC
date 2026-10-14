@@ -1,0 +1,18 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/api/:operation",
+      "destination": "/api?operation=:operation"
+    }
+  ],
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{dist/**,test_*.py,verify_*.mjs,__pycache__/**,export_data.py,serve.py,check_*.py,selection_*_evidence.json,selection_verification.json,requirements-test.txt}"
+    }
+  }
+}

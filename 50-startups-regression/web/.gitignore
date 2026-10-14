@@ -1,0 +1,5 @@
+__pycache__/
+.vercel/
+preview.log
+preview.err
+verification_results.json

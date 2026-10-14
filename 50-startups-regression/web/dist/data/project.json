@@ -1,0 +1,1765 @@
+{
+  "models": [
+    {
+      "Model": "Baseline OLS",
+      "Selected_Features": "R&D Spend | Administration | Marketing Spend | State_Florida | State_New York",
+      "Feature_Count": 5,
+      "CV_RMSE_Mean": 9550.67610568526,
+      "CV_RMSE_Std": 2936.122709811375,
+      "alpha": null,
+      "l1_ratio": null,
+      "Test_MAE": 6961.477813252383,
+      "Test_MSE": 82010363.04430108,
+      "Test_RMSE": 9055.95732345847,
+      "Test_R2": 0.898726641432864,
+      "Train_R2": 0.953701999524853,
+      "Best_By_CV": false
+    },
+    {
+      "Model": "Exhaustive",
+      "Selected_Features": "R&D Spend | Administration | Marketing Spend",
+      "Feature_Count": 3,
+      "CV_RMSE_Mean": 9532.689641131925,
+      "CV_RMSE_Std": 2928.287204295417,
+      "alpha": null,
+      "l1_ratio": null,
+      "Test_MAE": 6979.1522523704,
+      "Test_MSE": 80926321.2229516,
+      "Test_RMSE": 8995.905803361416,
+      "Test_R2": 0.900065308303732,
+      "Train_R2": 0.953592775725741,
+      "Best_By_CV": false
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Selected_Features": "R&D Spend | Administration | Marketing Spend",
+      "Feature_Count": 3,
+      "CV_RMSE_Mean": 9229.58326663668,
+      "CV_RMSE_Std": 3230.982916756946,
+      "alpha": 762.6985859023436,
+      "l1_ratio": 1.0,
+      "Test_MAE": 6660.080831859971,
+      "Test_MSE": 70509535.5800242,
+      "Test_RMSE": 8396.99562820085,
+      "Test_R2": 0.91292883954994,
+      "Train_R2": 0.95279164025999,
+      "Best_By_CV": true
+    },
+    {
+      "Model": "Forward SFS",
+      "Selected_Features": "R&D Spend | Administration | Marketing Spend",
+      "Feature_Count": 3,
+      "CV_RMSE_Mean": 9532.689641131925,
+      "CV_RMSE_Std": 2928.287204295417,
+      "alpha": null,
+      "l1_ratio": null,
+      "Test_MAE": 6979.1522523704,
+      "Test_MSE": 80926321.2229516,
+      "Test_RMSE": 8995.905803361416,
+      "Test_R2": 0.900065308303732,
+      "Train_R2": 0.953592775725741,
+      "Best_By_CV": false
+    },
+    {
+      "Model": "RFECV",
+      "Selected_Features": "R&D Spend | Administration | Marketing Spend",
+      "Feature_Count": 3,
+      "CV_RMSE_Mean": 9519.09010091553,
+      "CV_RMSE_Std": 3103.801446697855,
+      "alpha": null,
+      "l1_ratio": null,
+      "Test_MAE": 6979.1522523704,
+      "Test_MSE": 80926321.2229516,
+      "Test_RMSE": 8995.905803361416,
+      "Test_R2": 0.900065308303732,
+      "Train_R2": 0.953592775725741,
+      "Best_By_CV": false
+    },
+    {
+      "Model": "LassoCV",
+      "Selected_Features": "R&D Spend | Administration | Marketing Spend",
+      "Feature_Count": 3,
+      "CV_RMSE_Mean": 9229.58326663668,
+      "CV_RMSE_Std": 3230.982916756946,
+      "alpha": 762.6985859023436,
+      "l1_ratio": null,
+      "Test_MAE": 6660.080831859971,
+      "Test_MSE": 70509535.5800242,
+      "Test_RMSE": 8396.99562820085,
+      "Test_R2": 0.91292883954994,
+      "Train_R2": 0.95279164025999,
+      "Best_By_CV": false
+    }
+  ],
+  "predictions": [
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 13,
+      "Actual_Profit": 134307.35,
+      "Predicted_Profit": 126362.87908254925,
+      "Residual": 7944.470917450759
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 39,
+      "Actual_Profit": 81005.76,
+      "Predicted_Profit": 84608.45383633598,
+      "Residual": -3602.6938363359804
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 30,
+      "Actual_Profit": 99937.59,
+      "Predicted_Profit": 99677.49425146727,
+      "Residual": 260.0957485327235
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 45,
+      "Actual_Profit": 64926.08,
+      "Predicted_Profit": 46357.46068581843,
+      "Residual": 18568.61931418157
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 17,
+      "Actual_Profit": 125370.37,
+      "Predicted_Profit": 128750.482885045,
+      "Residual": -3380.112885045004
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 48,
+      "Actual_Profit": 35673.41,
+      "Predicted_Profit": 50912.41741880172,
+      "Residual": -15239.007418801715
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 26,
+      "Actual_Profit": 105733.54,
+      "Predicted_Profit": 109741.35032702184,
+      "Residual": -4007.810327021856
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 25,
+      "Actual_Profit": 107404.34,
+      "Predicted_Profit": 100643.2428164668,
+      "Residual": 6761.097183533188
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 32,
+      "Actual_Profit": 97427.84,
+      "Predicted_Profit": 97599.27574593798,
+      "Residual": -171.43574593798257
+    },
+    {
+      "Model": "Baseline OLS",
+      "Row_Index": 19,
+      "Actual_Profit": 122776.86,
+      "Predicted_Profit": 113097.42524431695,
+      "Residual": 9679.434755683047
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 13,
+      "Actual_Profit": 134307.35,
+      "Predicted_Profit": 126703.0271646076,
+      "Residual": 7604.322835392406
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 39,
+      "Actual_Profit": 81005.76,
+      "Predicted_Profit": 84894.75081555643,
+      "Residual": -3888.9908155564335
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 30,
+      "Actual_Profit": 99937.59,
+      "Predicted_Profit": 98893.41815973516,
+      "Residual": 1044.1718402648405
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 45,
+      "Actual_Profit": 64926.08,
+      "Predicted_Profit": 46501.708150359904,
+      "Residual": 18424.371849640094
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 17,
+      "Actual_Profit": 125370.37,
+      "Predicted_Profit": 129128.3973438091,
+      "Residual": -3758.02734380911
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 48,
+      "Actual_Profit": 35673.41,
+      "Predicted_Profit": 50992.69486261025,
+      "Residual": -15319.28486261025
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 26,
+      "Actual_Profit": 105733.54,
+      "Predicted_Profit": 109016.55365780124,
+      "Residual": -3283.013657801232
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 25,
+      "Actual_Profit": 107404.34,
+      "Predicted_Profit": 100878.4641454012,
+      "Residual": 6525.875854598809
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 32,
+      "Actual_Profit": 97427.84,
+      "Predicted_Profit": 97700.59638628676,
+      "Residual": -272.75638628676825
+    },
+    {
+      "Model": "Exhaustive",
+      "Row_Index": 19,
+      "Actual_Profit": 122776.86,
+      "Predicted_Profit": 113106.15292225596,
+      "Residual": 9670.707077744051
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 13,
+      "Actual_Profit": 134307.35,
+      "Predicted_Profit": 126908.53498532448,
+      "Residual": 7398.815014675536
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 39,
+      "Actual_Profit": 81005.76,
+      "Predicted_Profit": 84368.08716197094,
+      "Residual": -3362.327161970941
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 30,
+      "Actual_Profit": 99937.59,
+      "Predicted_Profit": 98999.62938122304,
+      "Residual": 937.9606187769532
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 45,
+      "Actual_Profit": 64926.08,
+      "Predicted_Profit": 48060.56945578373,
+      "Residual": 16865.510544216275
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 17,
+      "Actual_Profit": 125370.37,
+      "Predicted_Profit": 129605.4443049573,
+      "Residual": -4235.074304957307
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 48,
+      "Actual_Profit": 35673.41,
+      "Predicted_Profit": 50139.540044280846,
+      "Residual": -14466.130044280842
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 26,
+      "Actual_Profit": 105733.54,
+      "Predicted_Profit": 109821.9884074663,
+      "Residual": -4088.448407466305
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 25,
+      "Actual_Profit": 107404.34,
+      "Predicted_Profit": 101736.59258390048,
+      "Residual": 5667.747416099504
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 32,
+      "Actual_Profit": 97427.84,
+      "Predicted_Profit": 98229.6169819316,
+      "Residual": -801.7769819316163
+    },
+    {
+      "Model": "ElasticNetCV",
+      "Row_Index": 19,
+      "Actual_Profit": 122776.86,
+      "Predicted_Profit": 113999.84217577556,
+      "Residual": 8777.01782422443
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 13,
+      "Actual_Profit": 134307.35,
+      "Predicted_Profit": 126703.0271646076,
+      "Residual": 7604.322835392406
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 39,
+      "Actual_Profit": 81005.76,
+      "Predicted_Profit": 84894.75081555643,
+      "Residual": -3888.9908155564335
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 30,
+      "Actual_Profit": 99937.59,
+      "Predicted_Profit": 98893.41815973516,
+      "Residual": 1044.1718402648405
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 45,
+      "Actual_Profit": 64926.08,
+      "Predicted_Profit": 46501.708150359904,
+      "Residual": 18424.371849640094
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 17,
+      "Actual_Profit": 125370.37,
+      "Predicted_Profit": 129128.3973438091,
+      "Residual": -3758.02734380911
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 48,
+      "Actual_Profit": 35673.41,
+      "Predicted_Profit": 50992.69486261025,
+      "Residual": -15319.28486261025
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 26,
+      "Actual_Profit": 105733.54,
+      "Predicted_Profit": 109016.55365780124,
+      "Residual": -3283.013657801232
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 25,
+      "Actual_Profit": 107404.34,
+      "Predicted_Profit": 100878.4641454012,
+      "Residual": 6525.875854598809
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 32,
+      "Actual_Profit": 97427.84,
+      "Predicted_Profit": 97700.59638628676,
+      "Residual": -272.75638628676825
+    },
+    {
+      "Model": "Forward SFS",
+      "Row_Index": 19,
+      "Actual_Profit": 122776.86,
+      "Predicted_Profit": 113106.15292225596,
+      "Residual": 9670.707077744051
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 13,
+      "Actual_Profit": 134307.35,
+      "Predicted_Profit": 126703.0271646076,
+      "Residual": 7604.322835392406
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 39,
+      "Actual_Profit": 81005.76,
+      "Predicted_Profit": 84894.75081555643,
+      "Residual": -3888.9908155564335
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 30,
+      "Actual_Profit": 99937.59,
+      "Predicted_Profit": 98893.41815973516,
+      "Residual": 1044.1718402648405
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 45,
+      "Actual_Profit": 64926.08,
+      "Predicted_Profit": 46501.708150359904,
+      "Residual": 18424.371849640094
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 17,
+      "Actual_Profit": 125370.37,
+      "Predicted_Profit": 129128.3973438091,
+      "Residual": -3758.02734380911
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 48,
+      "Actual_Profit": 35673.41,
+      "Predicted_Profit": 50992.69486261025,
+      "Residual": -15319.28486261025
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 26,
+      "Actual_Profit": 105733.54,
+      "Predicted_Profit": 109016.55365780124,
+      "Residual": -3283.013657801232
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 25,
+      "Actual_Profit": 107404.34,
+      "Predicted_Profit": 100878.4641454012,
+      "Residual": 6525.875854598809
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 32,
+      "Actual_Profit": 97427.84,
+      "Predicted_Profit": 97700.59638628676,
+      "Residual": -272.75638628676825
+    },
+    {
+      "Model": "RFECV",
+      "Row_Index": 19,
+      "Actual_Profit": 122776.86,
+      "Predicted_Profit": 113106.15292225596,
+      "Residual": 9670.707077744051
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 13,
+      "Actual_Profit": 134307.35,
+      "Predicted_Profit": 126908.53498532448,
+      "Residual": 7398.815014675536
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 39,
+      "Actual_Profit": 81005.76,
+      "Predicted_Profit": 84368.08716197094,
+      "Residual": -3362.327161970941
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 30,
+      "Actual_Profit": 99937.59,
+      "Predicted_Profit": 98999.62938122304,
+      "Residual": 937.9606187769532
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 45,
+      "Actual_Profit": 64926.08,
+      "Predicted_Profit": 48060.56945578373,
+      "Residual": 16865.510544216275
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 17,
+      "Actual_Profit": 125370.37,
+      "Predicted_Profit": 129605.4443049573,
+      "Residual": -4235.074304957307
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 48,
+      "Actual_Profit": 35673.41,
+      "Predicted_Profit": 50139.540044280846,
+      "Residual": -14466.130044280842
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 26,
+      "Actual_Profit": 105733.54,
+      "Predicted_Profit": 109821.9884074663,
+      "Residual": -4088.448407466305
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 25,
+      "Actual_Profit": 107404.34,
+      "Predicted_Profit": 101736.59258390048,
+      "Residual": 5667.747416099504
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 32,
+      "Actual_Profit": 97427.84,
+      "Predicted_Profit": 98229.6169819316,
+      "Residual": -801.7769819316163
+    },
+    {
+      "Model": "LassoCV",
+      "Row_Index": 19,
+      "Actual_Profit": 122776.86,
+      "Predicted_Profit": 113999.84217577556,
+      "Residual": 8777.01782422443
+    }
+  ],
+  "featureCounts": [
+    {
+      "count": 1,
+      "features": [
+        "R&D Spend"
+      ],
+      "rmse": 9406.578720181318,
+      "r2": 0.93837368355318
+    },
+    {
+      "count": 2,
+      "features": [
+        "R&D Spend",
+        "Administration"
+      ],
+      "rmse": 9367.38914049674,
+      "r2": 0.93717490848621
+    },
+    {
+      "count": 3,
+      "features": [
+        "R&D Spend",
+        "Administration",
+        "Marketing Spend"
+      ],
+      "rmse": 9266.777665253603,
+      "r2": 0.938114929092515
+    },
+    {
+      "count": 4,
+      "features": [
+        "R&D Spend",
+        "Administration",
+        "Marketing Spend",
+        "State_Florida"
+      ],
+      "rmse": 9300.289827440396,
+      "r2": 0.937653370078755
+    },
+    {
+      "count": 5,
+      "features": [
+        "R&D Spend",
+        "Administration",
+        "Marketing Spend",
+        "State_Florida",
+        "State_New York"
+      ],
+      "rmse": 9550.67610568526,
+      "r2": 0.934003951103565
+    }
+  ],
+  "metadata": {
+    "best_model": "ElasticNetCV",
+    "selection_metric": "training-only outer 5-fold CV RMSE",
+    "random_state": 42,
+    "outer_folds": 5,
+    "inner_folds": 5,
+    "training_rows": [
+      12,
+      4,
+      37,
+      8,
+      3,
+      6,
+      41,
+      46,
+      47,
+      15,
+      9,
+      16,
+      24,
+      34,
+      31,
+      0,
+      44,
+      27,
+      33,
+      5,
+      29,
+      11,
+      36,
+      1,
+      21,
+      2,
+      43,
+      35,
+      23,
+      40,
+      10,
+      22,
+      18,
+      49,
+      20,
+      7,
+      42,
+      14,
+      28,
+      38
+    ],
+    "testing_rows": [
+      13,
+      39,
+      30,
+      45,
+      17,
+      48,
+      26,
+      25,
+      32,
+      19
+    ],
+    "best_selected_features": [
+      "R&D Spend",
+      "Administration",
+      "Marketing Spend"
+    ],
+    "best_hyperparameters": {
+      "alpha": 762.6985859023436,
+      "l1_ratio": 1.0
+    },
+    "best_example_profit": 174433.1196747523,
+    "baseline_example_profit": 175581.6239144522,
+    "dataset_url": "https://gist.githubusercontent.com/GaneshSparkz/b5662effbdae8746f7f7d8ed70c42b2d/raw/faf8b1a0d58e251f48a647d3881e7a960c3f0925/50_Startups.csv"
+  },
+  "predictionModels": {
+    "best": {
+      "name": "ElasticNetCV",
+      "features": [
+        "R&D Spend",
+        "Administration",
+        "Marketing Spend",
+        "State_Florida",
+        "State_New York"
+      ],
+      "weights": [
+        0.7845031218862436,
+        -0.03449886287561244,
+        0.03132711657741529,
+        0.0,
+        -0.0
+      ],
+      "intercept": 51499.37996366464
+    },
+    "baseline": {
+      "name": "Baseline OLS",
+      "features": [
+        "R&D Spend",
+        "Administration",
+        "Marketing Spend",
+        "State_Florida",
+        "State_New York"
+      ],
+      "weights": [
+        0.8056300637153667,
+        -0.0687878822771322,
+        0.02985544292263423,
+        938.7930061484284,
+        6.987759966980563
+      ],
+      "intercept": 54028.039593645815
+    }
+  },
+  "validationCases": {
+    "best": [
+      {
+        "input": {
+          "R&D Spend": 150000.0,
+          "Administration": 120000.0,
+          "Marketing Spend": 300000.0,
+          "State": "New York"
+        },
+        "expected": 174433.1196747523
+      },
+      {
+        "input": {
+          "R&D Spend": 78998.11915536942,
+          "Administration": 111242.50679860722,
+          "Marketing Spend": 311926.3687463136,
+          "State": "Florida"
+        },
+        "expected": 119407.66479349448
+      },
+      {
+        "input": {
+          "R&D Spend": 154547.62558404883,
+          "Administration": 123480.69384255455,
+          "Marketing Spend": 40533.27414714676,
+          "State": "New York"
+        },
+        "expected": 169752.3217942695
+      },
+      {
+        "input": {
+          "R&D Spend": 125526.2452306855,
+          "Administration": 149449.85146408333,
+          "Marketing Spend": 199587.55304189262,
+          "State": "California"
+        },
+        "expected": 151071.7638349
+      },
+      {
+        "input": {
+          "R&D Spend": 16951.922619776917,
+          "Administration": 132513.3816000768,
+          "Marketing Spend": 19974.80345370839,
+          "State": "Florida"
+        },
+        "expected": 60852.40819625419
+      },
+      {
+        "input": {
+          "R&D Spend": 175612.02329461605,
+          "Administration": 121965.32208553946,
+          "Marketing Spend": 237115.5932373691,
+          "State": "New York"
+        },
+        "expected": 192488.0433885118
+      },
+      {
+        "input": {
+          "R&D Spend": 137005.14635826353,
+          "Administration": 122696.93089690377,
+          "Marketing Spend": 158333.38191973694,
+          "State": "California"
+        },
+        "expected": 159707.56871542934
+      },
+      {
+        "input": {
+          "R&D Spend": 141491.5749498517,
+          "Administration": 89513.51274813959,
+          "Marketing Spend": 69371.6106557025,
+          "State": "Florida"
+        },
+        "expected": 161585.06036478654
+      },
+      {
+        "input": {
+          "R&D Spend": 23060.453881598256,
+          "Administration": 54006.31849383212,
+          "Marketing Spend": 49633.42450682479,
+          "State": "New York"
+        },
+        "expected": 69282.09352541849
+      },
+      {
+        "input": {
+          "R&D Spend": 81069.46882120208,
+          "Administration": 106773.26060020711,
+          "Marketing Spend": 282069.3946453018,
+          "State": "California"
+        },
+        "expected": 120251.49607630292
+      },
+      {
+        "input": {
+          "R&D Spend": 66743.64436186462,
+          "Administration": 77896.0074665388,
+          "Marketing Spend": 81884.62489770533,
+          "State": "Florida"
+        },
+        "expected": 103737.86284153516
+      },
+      {
+        "input": {
+          "R&D Spend": 166817.69799274832,
+          "Administration": 103108.7236842027,
+          "Marketing Spend": 444057.65682086267,
+          "State": "New York"
+        },
+        "expected": 192722.29708751256
+      },
+      {
+        "input": {
+          "R&D Spend": 115895.72161451961,
+          "Administration": 160942.3995248616,
+          "Marketing Spend": 278909.3470561896,
+          "State": "California"
+        },
+        "expected": 145605.03124119408
+      },
+      {
+        "input": {
+          "R&D Spend": 148097.0903887494,
+          "Administration": 80412.1331624943,
+          "Marketing Spend": 166497.5061767218,
+          "State": "Florida"
+        },
+        "expected": 170123.76934624647
+      },
+      {
+        "input": {
+          "R&D Spend": 79814.5557889196,
+          "Administration": 57579.35641957858,
+          "Marketing Spend": 283639.43591108004,
+          "State": "New York"
+        },
+        "expected": 121013.33150518949
+      },
+      {
+        "input": {
+          "R&D Spend": 40902.96992125984,
+          "Administration": 86579.90596285954,
+          "Marketing Spend": 10945.8580942548,
+          "State": "California"
+        },
+        "expected": 80943.88143027457
+      },
+      {
+        "input": {
+          "R&D Spend": 99825.26166285026,
+          "Administration": 88167.18850966886,
+          "Marketing Spend": 460108.42235589377,
+          "State": "Florida"
+        },
+        "expected": 141184.8118201522
+      },
+      {
+        "input": {
+          "R&D Spend": 11487.106098751558,
+          "Administration": 136049.14691449638,
+          "Marketing Spend": 231505.6497325921,
+          "State": "New York"
+        },
+        "expected": 63069.91417332967
+      },
+      {
+        "input": {
+          "R&D Spend": 148973.61095866477,
+          "Administration": 122414.17980436618,
+          "Marketing Spend": 375712.9090801374,
+          "State": "California"
+        },
+        "expected": 175916.49493869577
+      },
+      {
+        "input": {
+          "R&D Spend": 113699.59184197168,
+          "Administration": 151906.76718383376,
+          "Marketing Spend": 39710.39996277051,
+          "State": "Florida"
+        },
+        "expected": 136700.46631889994
+      },
+      {
+        "input": {
+          "R&D Spend": 136455.7932153673,
+          "Administration": 136360.76024256038,
+          "Marketing Spend": 233595.99880231696,
+          "State": "New York"
+        },
+        "expected": 161162.9736578596
+      },
+      {
+        "input": {
+          "R&D Spend": 63814.674263376306,
+          "Administration": 102830.29198720917,
+          "Marketing Spend": 235539.35729017004,
+          "State": "California"
+        },
+        "expected": 105393.4319071098
+      },
+      {
+        "input": {
+          "R&D Spend": 174725.64439108258,
+          "Administration": 155822.6500065845,
+          "Marketing Spend": 450156.69838799175,
+          "State": "Florida"
+        },
+        "expected": 197298.60059506784
+      },
+      {
+        "input": {
+          "R&D Spend": 160761.8018379956,
+          "Administration": 71706.4795880015,
+          "Marketing Spend": 274429.4651405162,
+          "State": "New York"
+        },
+        "expected": 183740.80722576514
+      },
+      {
+        "input": {
+          "R&D Spend": 140109.02947327713,
+          "Administration": 52952.56950740186,
+          "Marketing Spend": 227274.91250733784,
+          "State": "California"
+        },
+        "expected": 166708.41523479432
+      },
+      {
+        "input": {
+          "R&D Spend": 35034.96741335416,
+          "Administration": 61706.22190083343,
+          "Marketing Spend": 128148.31828410891,
+          "State": "Florida"
+        },
+        "expected": 80870.14409278083
+      },
+      {
+        "input": {
+          "R&D Spend": 84009.78067086615,
+          "Administration": 143906.71557753853,
+          "Marketing Spend": 159153.11872442506,
+          "State": "New York"
+        },
+        "expected": 117426.50542528776
+      },
+      {
+        "input": {
+          "R&D Spend": 7884.67784170118,
+          "Administration": 110044.03993268036,
+          "Marketing Spend": 249922.75318633814,
+          "State": "California"
+        },
+        "expected": 61717.899326047554
+      },
+      {
+        "input": {
+          "R&D Spend": 27772.10857215861,
+          "Administration": 70965.33127436823,
+          "Marketing Spend": 210677.5009464224,
+          "State": "Florida"
+        },
+        "expected": 77438.38123971704
+      },
+      {
+        "input": {
+          "R&D Spend": 122948.81158364183,
+          "Administration": 115135.82076343725,
+          "Marketing Spend": 10373.798342558604,
+          "State": "New York"
+        },
+        "expected": 144306.03278067423
+      },
+      {
+        "input": {
+          "R&D Spend": 134057.18806340708,
+          "Administration": 69800.57335271189,
+          "Marketing Spend": 396620.12361329177,
+          "State": "California"
+        },
+        "expected": 166684.5869513469
+      },
+      {
+        "input": {
+          "R&D Spend": 174151.7518381578,
+          "Administration": 140521.6487601057,
+          "Marketing Spend": 430157.170483088,
+          "State": "Florida"
+        },
+        "expected": 196749.71969736274
+      },
+      {
+        "input": {
+          "R&D Spend": 58648.56446486735,
+          "Administration": 108000.31582462399,
+          "Marketing Spend": 67319.56271933317,
+          "State": "New York"
+        },
+        "expected": 95892.40158359232
+      },
+      {
+        "input": {
+          "R&D Spend": 66682.7470862764,
+          "Administration": 99532.75939254272,
+          "Marketing Spend": 265937.3488987437,
+          "State": "California"
+        },
+        "expected": 108709.48654212434
+      },
+      {
+        "input": {
+          "R&D Spend": 84520.04602964543,
+          "Administration": 89196.57158922395,
+          "Marketing Spend": 52116.3557450129,
+          "State": "Florida"
+        },
+        "expected": 116361.09479567317
+      },
+      {
+        "input": {
+          "R&D Spend": 34104.84463517142,
+          "Administration": 131936.73710545548,
+          "Marketing Spend": 322675.2446591096,
+          "State": "New York"
+        },
+        "expected": 83811.55465582703
+      },
+      {
+        "input": {
+          "R&D Spend": 23385.870960384895,
+          "Administration": 97035.63937194075,
+          "Marketing Spend": 134992.21624272398,
+          "State": "California"
+        },
+        "expected": 70726.96641865495
+      },
+      {
+        "input": {
+          "R&D Spend": 85626.88672066807,
+          "Administration": 61394.48951109313,
+          "Marketing Spend": 316522.8646521128,
+          "State": "Florida"
+        },
+        "expected": 126471.64851884123
+      },
+      {
+        "input": {
+          "R&D Spend": 40843.68282915914,
+          "Administration": 65340.76727566699,
+          "Marketing Spend": 348957.41485770367,
+          "State": "New York"
+        },
+        "expected": 92219.02409784176
+      },
+      {
+        "input": {
+          "R&D Spend": 120566.51904285187,
+          "Administration": 175046.69639143688,
+          "Marketing Spend": 368950.7961204754,
+          "State": "California"
+        },
+        "expected": 151603.44317349835
+      },
+      {
+        "input": {
+          "R&D Spend": 78687.34539701953,
+          "Administration": 168115.48979198892,
+          "Marketing Spend": 51715.65405883035,
+          "State": "Florida"
+        },
+        "expected": 109050.15717454562
+      },
+      {
+        "input": {
+          "R&D Spend": 149882.07529041075,
+          "Administration": 140961.92739539745,
+          "Marketing Spend": 439685.6856660518,
+          "State": "New York"
+        },
+        "expected": 177993.3944721662
+      },
+      {
+        "input": {
+          "R&D Spend": 126047.71836040485,
+          "Administration": 84563.09498973755,
+          "Marketing Spend": 110502.71562954278,
+          "State": "California"
+        },
+        "expected": 150928.60936029954
+      },
+      {
+        "input": {
+          "R&D Spend": 56225.99544876739,
+          "Administration": 175992.9290552041,
+          "Marketing Spend": 17958.026964566292,
+          "State": "Florida"
+        },
+        "expected": 90099.86620205085
+      },
+      {
+        "input": {
+          "R&D Spend": 149806.7642511362,
+          "Administration": 151237.6175155533,
+          "Marketing Spend": 266329.185307912,
+          "State": "New York"
+        },
+        "expected": 172149.0538061631
+      },
+      {
+        "input": {
+          "R&D Spend": 144857.58434942435,
+          "Administration": 143195.72459066944,
+          "Marketing Spend": 178042.69625397061,
+          "State": "California"
+        },
+        "expected": 165778.08174896592
+      },
+      {
+        "input": {
+          "R&D Spend": 69746.10822543141,
+          "Administration": 108416.99527869253,
+          "Marketing Spend": 398299.0767035583,
+          "State": "Florida"
+        },
+        "expected": 114952.71816099511
+      },
+      {
+        "input": {
+          "R&D Spend": 51899.05870744394,
+          "Administration": 85391.40303987067,
+          "Marketing Spend": 387960.70659086487,
+          "State": "New York"
+        },
+        "expected": 101422.13752121164
+      },
+      {
+        "input": {
+          "R&D Spend": 122849.19071549558,
+          "Administration": 62530.825079954906,
+          "Marketing Spend": 152226.66855490336,
+          "State": "California"
+        },
+        "expected": 150486.5338332482
+      },
+      {
+        "input": {
+          "R&D Spend": 25155.447049675764,
+          "Administration": 167338.3115506994,
+          "Marketing Spend": 457391.7096334776,
+          "State": "Florida"
+        },
+        "expected": 79789.68865178654
+      },
+      {
+        "input": {
+          "R&D Spend": 35983.476445519496,
+          "Administration": 109250.91767836944,
+          "Marketing Spend": 139640.56230725694,
+          "State": "New York"
+        },
+        "expected": 80334.03331780917
+      },
+      {
+        "input": {
+          "R&D Spend": 1325.2085551809923,
+          "Administration": 76307.23742337993,
+          "Marketing Spend": 247227.422031223,
+          "State": "California"
+        },
+        "expected": 57651.41956317448
+      },
+      {
+        "input": {
+          "R&D Spend": 141646.3879503849,
+          "Administration": 89774.36113958483,
+          "Marketing Spend": 122863.24347244932,
+          "State": "Florida"
+        },
+        "expected": 163373.25129129214
+      },
+      {
+        "input": {
+          "R&D Spend": 119673.15418656578,
+          "Administration": 125298.54396244648,
+          "Marketing Spend": 449300.9136235024,
+          "State": "New York"
+        },
+        "expected": 155135.98784174758
+      },
+      {
+        "input": {
+          "R&D Spend": 126929.76815274032,
+          "Administration": 72980.46178210012,
+          "Marketing Spend": 79011.7524393687,
+          "State": "California"
+        },
+        "expected": 151033.64677582096
+      },
+      {
+        "input": {
+          "R&D Spend": 140531.22558395422,
+          "Administration": 161359.8569320088,
+          "Marketing Spend": 21557.097308317912,
+          "State": "Florida"
+        },
+        "expected": 156855.15527929922
+      },
+      {
+        "input": {
+          "R&D Spend": 82604.83959690119,
+          "Administration": 148607.5388785773,
+          "Marketing Spend": 208846.58880145822,
+          "State": "New York"
+        },
+        "expected": 117718.90483847054
+      },
+      {
+        "input": {
+          "R&D Spend": 102373.41527152088,
+          "Administration": 143530.18427362177,
+          "Marketing Spend": 476340.2707468018,
+          "State": "California"
+        },
+        "expected": 141782.3828887652
+      },
+      {
+        "input": {
+          "R&D Spend": 25163.45966297834,
+          "Administration": 106172.09517076348,
+          "Marketing Spend": 428005.08780235867,
+          "State": "Florida"
+        },
+        "expected": 80985.54135552843
+      },
+      {
+        "input": {
+          "R&D Spend": 20615.41323647522,
+          "Administration": 131550.14929131762,
+          "Marketing Spend": 359331.84933933563,
+          "State": "New York"
+        },
+        "expected": 74390.73617921854
+      }
+    ],
+    "baseline": [
+      {
+        "input": {
+          "R&D Spend": 150000.0,
+          "Administration": 120000.0,
+          "Marketing Spend": 300000.0,
+          "State": "New York"
+        },
+        "expected": 175581.6239144522
+      },
+      {
+        "input": {
+          "R&D Spend": 78998.11915536942,
+          "Administration": 111242.50679860722,
+          "Marketing Spend": 311926.3687463136,
+          "State": "Florida"
+        },
+        "expected": 120270.6558046231
+      },
+      {
+        "input": {
+          "R&D Spend": 154547.62558404883,
+          "Administration": 123480.69384255455,
+          "Marketing Spend": 40533.27414714676,
+          "State": "New York"
+        },
+        "expected": 171259.40422117608
+      },
+      {
+        "input": {
+          "R&D Spend": 125526.2452306855,
+          "Administration": 149449.85146408333,
+          "Marketing Spend": 199587.55304189262,
+          "State": "California"
+        },
+        "expected": 150834.19254585792
+      },
+      {
+        "input": {
+          "R&D Spend": 16951.922619776917,
+          "Administration": 132513.3816000768,
+          "Marketing Spend": 19974.80345370839,
+          "State": "Florida"
+        },
+        "expected": 60104.85281081534
+      },
+      {
+        "input": {
+          "R&D Spend": 175612.02329461605,
+          "Administration": 121965.32208553946,
+          "Marketing Spend": 237115.5932373691,
+          "State": "New York"
+        },
+        "expected": 194202.80771209102
+      },
+      {
+        "input": {
+          "R&D Spend": 137005.14635826353,
+          "Administration": 122696.93089690377,
+          "Marketing Spend": 158333.38191973694,
+          "State": "California"
+        },
+        "expected": 160690.55559193753
+      },
+      {
+        "input": {
+          "R&D Spend": 141491.5749498517,
+          "Administration": 89513.51274813959,
+          "Marketing Spend": 69371.6106557025,
+          "State": "Florida"
+        },
+        "expected": 164870.37432708178
+      },
+      {
+        "input": {
+          "R&D Spend": 23060.453881598256,
+          "Administration": 54006.31849383212,
+          "Marketing Spend": 49633.42450682479,
+          "State": "New York"
+        },
+        "expected": 70380.06987719343
+      },
+      {
+        "input": {
+          "R&D Spend": 81069.46882120208,
+          "Administration": 106773.26060020711,
+          "Marketing Spend": 282069.3946453018,
+          "State": "California"
+        },
+        "expected": 120416.64115698397
+      },
+      {
+        "input": {
+          "R&D Spend": 66743.64436186462,
+          "Administration": 77896.0074665388,
+          "Marketing Spend": 81884.62489770533,
+          "State": "Florida"
+        },
+        "expected": 105823.91941304688
+      },
+      {
+        "input": {
+          "R&D Spend": 166817.69799274832,
+          "Administration": 103108.7236842027,
+          "Marketing Spend": 444057.65682086267,
+          "State": "New York"
+        },
+        "expected": 194593.28729740108
+      },
+      {
+        "input": {
+          "R&D Spend": 115895.72161451961,
+          "Administration": 160942.3995248616,
+          "Marketing Spend": 278909.3470561896,
+          "State": "California"
+        },
+        "expected": 144653.19244199953
+      },
+      {
+        "input": {
+          "R&D Spend": 148097.0903887494,
+          "Administration": 80412.1331624943,
+          "Marketing Spend": 166497.5061767218,
+          "State": "Florida"
+        },
+        "expected": 173717.77740852817
+      },
+      {
+        "input": {
+          "R&D Spend": 79814.5557889196,
+          "Administration": 57579.35641957858,
+          "Marketing Spend": 283639.43591108004,
+          "State": "New York"
+        },
+        "expected": 122843.45201772221
+      },
+      {
+        "input": {
+          "R&D Spend": 40902.96992125984,
+          "Administration": 86579.90596285954,
+          "Marketing Spend": 10945.8580942548,
+          "State": "California"
+        },
+        "expected": 81351.84692009204
+      },
+      {
+        "input": {
+          "R&D Spend": 99825.26166285026,
+          "Administration": 88167.18850966886,
+          "Marketing Spend": 460108.42235589377,
+          "State": "Florida"
+        },
+        "expected": 143060.9710716003
+      },
+      {
+        "input": {
+          "R&D Spend": 11487.106098751558,
+          "Administration": 136049.14691449638,
+          "Marketing Spend": 231505.6497325921,
+          "State": "New York"
+        },
+        "expected": 60842.556381855306
+      },
+      {
+        "input": {
+          "R&D Spend": 148973.61095866477,
+          "Administration": 122414.17980436618,
+          "Marketing Spend": 375712.9090801374,
+          "State": "California"
+        },
+        "expected": 176842.12240508763
+      },
+      {
+        "input": {
+          "R&D Spend": 113699.59184197168,
+          "Administration": 151906.76718383376,
+          "Marketing Spend": 39710.39996277051,
+          "State": "Florida"
+        },
+        "expected": 137302.86878123527
+      },
+      {
+        "input": {
+          "R&D Spend": 136455.7932153673,
+          "Administration": 136360.76024256038,
+          "Marketing Spend": 233595.99880231696,
+          "State": "New York"
+        },
+        "expected": 161562.06082245288
+      },
+      {
+        "input": {
+          "R&D Spend": 63814.674263376306,
+          "Administration": 102830.29198720917,
+          "Marketing Spend": 235539.35729017004,
+          "State": "California"
+        },
+        "expected": 105397.71350429638
+      },
+      {
+        "input": {
+          "R&D Spend": 174725.64439108258,
+          "Administration": 155822.6500065845,
+          "Marketing Spend": 450156.69838799175,
+          "State": "Florida"
+        },
+        "expected": 198451.98213349102
+      },
+      {
+        "input": {
+          "R&D Spend": 160761.8018379956,
+          "Administration": 71706.4795880015,
+          "Marketing Spend": 274429.4651405162,
+          "State": "New York"
+        },
+        "expected": 186810.24436773904
+      },
+      {
+        "input": {
+          "R&D Spend": 140109.02947327713,
+          "Administration": 52952.56950740186,
+          "Marketing Spend": 227274.91250733784,
+          "State": "California"
+        },
+        "expected": 170046.98399586297
+      },
+      {
+        "input": {
+          "R&D Spend": 35034.96741335416,
+          "Administration": 61706.22190083343,
+          "Marketing Spend": 128148.31828410891,
+          "State": "Florida"
+        },
+        "expected": 82773.34010356221
+      },
+      {
+        "input": {
+          "R&D Spend": 84009.78067086615,
+          "Administration": 143906.71557753853,
+          "Marketing Spend": 159153.11872442506,
+          "State": "New York"
+        },
+        "expected": 116568.38095019652
+      },
+      {
+        "input": {
+          "R&D Spend": 7884.67784170118,
+          "Administration": 110044.03993268036,
+          "Marketing Spend": 249922.75318633814,
+          "State": "California"
+        },
+        "expected": 60272.03113426374
+      },
+      {
+        "input": {
+          "R&D Spend": 27772.10857215861,
+          "Administration": 70965.33127436823,
+          "Marketing Spend": 210677.5009464224,
+          "State": "Florida"
+        },
+        "expected": 78749.19344942266
+      },
+      {
+        "input": {
+          "R&D Spend": 122948.81158364183,
+          "Administration": 115135.82076343725,
+          "Marketing Spend": 10373.798342558604,
+          "State": "New York"
+        },
+        "expected": 145476.05132322162
+      },
+      {
+        "input": {
+          "R&D Spend": 134057.18806340708,
+          "Administration": 69800.57335271189,
+          "Marketing Spend": 396620.12361329177,
+          "State": "California"
+        },
+        "expected": 169068.37639451344
+      },
+      {
+        "input": {
+          "R&D Spend": 174151.7518381578,
+          "Administration": 140521.6487601057,
+          "Marketing Spend": 430157.170483088,
+          "State": "Florida"
+        },
+        "expected": 198445.06574813303
+      },
+      {
+        "input": {
+          "R&D Spend": 58648.56446486735,
+          "Administration": 108000.31582462399,
+          "Marketing Spend": 67319.56271933317,
+          "State": "New York"
+        },
+        "expected": 95864.81643176508
+      },
+      {
+        "input": {
+          "R&D Spend": 66682.7470862764,
+          "Administration": 99532.75939254272,
+          "Marketing Spend": 265937.3488987437,
+          "State": "California"
+        },
+        "expected": 108842.6949827091
+      },
+      {
+        "input": {
+          "R&D Spend": 84520.04602964543,
+          "Administration": 89196.57158922395,
+          "Marketing Spend": 52116.3557450129,
+          "State": "Florida"
+        },
+        "expected": 118479.03628616083
+      },
+      {
+        "input": {
+          "R&D Spend": 34104.84463517142,
+          "Administration": 131936.73710545548,
+          "Marketing Spend": 322675.2446591096,
+          "State": "New York"
+        },
+        "expected": 82068.87911947671
+      },
+      {
+        "input": {
+          "R&D Spend": 23385.870960384895,
+          "Administration": 97035.63937194075,
+          "Marketing Spend": 134992.21624272398,
+          "State": "California"
+        },
+        "expected": 70223.77657473127
+      },
+      {
+        "input": {
+          "R&D Spend": 85626.88672066807,
+          "Administration": 61394.48951109313,
+          "Marketing Spend": 316522.8646521128,
+          "State": "Florida"
+        },
+        "expected": 129177.16020669069
+      },
+      {
+        "input": {
+          "R&D Spend": 40843.68282915914,
+          "Administration": 65340.76727566699,
+          "Marketing Spend": 348957.41485770367,
+          "State": "New York"
+        },
+        "expected": 92863.5513280966
+      },
+      {
+        "input": {
+          "R&D Spend": 120566.51904285187,
+          "Administration": 175046.69639143688,
+          "Marketing Spend": 368950.7961204754,
+          "State": "California"
+        },
+        "expected": 150134.1499025388
+      },
+      {
+        "input": {
+          "R&D Spend": 78687.34539701953,
+          "Administration": 168115.48979198892,
+          "Marketing Spend": 51715.65405883035,
+          "State": "Florida"
+        },
+        "expected": 108339.40892277451
+      },
+      {
+        "input": {
+          "R&D Spend": 149882.07529041075,
+          "Administration": 140961.92739539745,
+          "Marketing Spend": 439685.6856660518,
+          "State": "New York"
+        },
+        "expected": 178215.07164468765
+      },
+      {
+        "input": {
+          "R&D Spend": 126047.71836040485,
+          "Administration": 84563.09498973755,
+          "Marketing Spend": 110502.71562954278,
+          "State": "California"
+        },
+        "expected": 153058.06226364526
+      },
+      {
+        "input": {
+          "R&D Spend": 56225.99544876739,
+          "Administration": 175992.9290552041,
+          "Marketing Spend": 17958.026964566292,
+          "State": "Florida"
+        },
+        "expected": 88694.1488592313
+      },
+      {
+        "input": {
+          "R&D Spend": 149806.7642511362,
+          "Administration": 151237.6175155533,
+          "Marketing Spend": 266329.185307912,
+          "State": "New York"
+        },
+        "expected": 172271.92074330678
+      },
+      {
+        "input": {
+          "R&D Spend": 144857.58434942435,
+          "Administration": 143195.72459066944,
+          "Marketing Spend": 178042.69625397061,
+          "State": "California"
+        },
+        "expected": 166195.07741279737
+      },
+      {
+        "input": {
+          "R&D Spend": 69746.10822543141,
+          "Administration": 108416.99527869253,
+          "Marketing Spend": 398299.0767035583,
+          "State": "Florida"
+        },
+        "expected": 115590.0140559373
+      },
+      {
+        "input": {
+          "R&D Spend": 51899.05870744394,
+          "Administration": 85391.40303987067,
+          "Marketing Spend": 387960.70659086487,
+          "State": "New York"
+        },
+        "expected": 101555.31427892105
+      },
+      {
+        "input": {
+          "R&D Spend": 122849.19071549558,
+          "Administration": 62530.825079954906,
+          "Marketing Spend": 152226.66855490336,
+          "State": "California"
+        },
+        "expected": 153242.47251720354
+      },
+      {
+        "input": {
+          "R&D Spend": 25155.447049675764,
+          "Administration": 167338.3115506994,
+          "Marketing Spend": 457391.7096334776,
+          "State": "Florida"
+        },
+        "expected": 77377.60101405786
+      },
+      {
+        "input": {
+          "R&D Spend": 35983.476445519496,
+          "Administration": 109250.91767836944,
+          "Marketing Spend": 139640.56230725694,
+          "State": "New York"
+        },
+        "expected": 79678.28934883758
+      },
+      {
+        "input": {
+          "R&D Spend": 1325.2085551809923,
+          "Administration": 76307.23742337993,
+          "Marketing Spend": 247227.422031223,
+          "State": "California"
+        },
+        "expected": 57227.73836898297
+      },
+      {
+        "input": {
+          "R&D Spend": 141646.3879503849,
+          "Administration": 89774.36113958483,
+          "Marketing Spend": 122863.24347244932,
+          "State": "Florida"
+        },
+        "expected": 166574.16951652127
+      },
+      {
+        "input": {
+          "R&D Spend": 119673.15418656578,
+          "Administration": 125298.54396244648,
+          "Marketing Spend": 449300.9136235024,
+          "State": "New York"
+        },
+        "expected": 155242.37447614374
+      },
+      {
+        "input": {
+          "R&D Spend": 126929.76815274032,
+          "Administration": 72980.46178210012,
+          "Marketing Spend": 79011.7524393687,
+          "State": "California"
+        },
+        "expected": 153625.23624948776
+      },
+      {
+        "input": {
+          "R&D Spend": 140531.22558395422,
+          "Administration": 161359.8569320088,
+          "Marketing Spend": 21557.097308317912,
+          "State": "Florida"
+        },
+        "expected": 157727.0066663661
+      },
+      {
+        "input": {
+          "R&D Spend": 82604.83959690119,
+          "Administration": 148607.5388785773,
+          "Marketing Spend": 208846.58880145822,
+          "State": "New York"
+        },
+        "expected": 116596.77906293681
+      },
+      {
+        "input": {
+          "R&D Spend": 102373.41527152088,
+          "Administration": 143530.18427362177,
+          "Marketing Spend": 476340.2707468018,
+          "State": "California"
+        },
+        "expected": 140851.35300760515
+      },
+      {
+        "input": {
+          "R&D Spend": 25163.45966297834,
+          "Administration": 106172.09517076348,
+          "Marketing Spend": 428005.08780235867,
+          "State": "Florida"
+        },
+        "expected": 80714.20009713597
+      },
+      {
+        "input": {
+          "R&D Spend": 20615.41323647522,
+          "Administration": 131550.14929131762,
+          "Marketing Spend": 359331.84933933563,
+          "State": "New York"
+        },
+        "expected": 72322.37936807776
+      }
+    ]
+  }
+}

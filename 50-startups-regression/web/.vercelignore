@@ -1,0 +1,14 @@
+__pycache__/
+.vercel/
+test_*.py
+verify_*.mjs
+check_http.py
+serve.py
+export_data.py
+README.md
+verification_results.json
+
+check_selection_run.py
+selection_*_evidence.json
+selection_verification.json
+requirements-test.txt
